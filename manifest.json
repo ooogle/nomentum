@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Nomentum Dash",
+  "short_name": "Nomentum",
+  "description": "Replace the new tab with a beautiful random background image and stuff",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation",
+    "*://*.google.com/*",
+    "*://*.github.com/*",
+    "*://*.github.io/*",
+    "*://*.cloudfare.com/*",
+    "*://*.googleapis.com/*",
+    "*://*.quotesondesign.com/*",
+    "*://*.unsplash.com/*"
+
+    
+  ],
+  "icons": {
+    "16": "assets/img/icon16.png",
+    "48": "assets/img/icon48.png",
+    "128": "assets/img/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "nomentum.html"
+  },
+  
+ 
+  "browser_action": {
+    "default_title": "Nomentum",
+    "default_icon": "images/Nomentumlogo.jpg"
+  }
+}
