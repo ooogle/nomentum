@@ -15,7 +15,7 @@
     "*://*.googleapis.com/*",
     "*://*.quotesondesign.com/*",
     "*://*.unsplash.com/*"
-
+    "*://*.bootstrapcdn.com/*"
     
   ],
    "content_scripts": [
